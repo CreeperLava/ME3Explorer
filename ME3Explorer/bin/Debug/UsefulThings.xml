@@ -36,24 +36,6 @@
             <param name="initialLength">Initial buffer length, default is 32K</param>
             <returns>The byte array containing all the bytes from the stream</returns>
         </member>
-        <member name="M:UsefulThings.Extensions.Contains``1(System.Collections.Generic.List{``0},System.Predicate{``0})">
-            <summary>
-            Checks if anything matches given predicate in List. e.g. Check if text files in list:  predicate = t => t.EndsWith(".txt")
-            </summary>
-            <typeparam name="T">Type of contents in list.</typeparam>
-            <param name="list">List to check in.</param>
-            <param name="equalityComparer">Predicate to determine if item is in list.</param>
-            <returns>True if item found in List.</returns>
-        </member>
-        <member name="M:UsefulThings.Extensions.Contains``1(System.Collections.Generic.IEnumerable{``0},System.Predicate{``0})">
-            <summary>
-            Checks if anything matches given predicate in enumerable. e.g. Check if text files in list:  predicate = t => t.EndsWith(".txt")
-            </summary>
-            <typeparam name="T"></typeparam>
-            <param name="enumerable"></param>
-            <param name="equalityComparer"></param>
-            <returns></returns>
-        </member>
         <member name="M:UsefulThings.Extensions.AddRangeKinda``1(System.Collections.Concurrent.ConcurrentBag{``0},System.Collections.Generic.IEnumerable{``0})">
             <summary>
             Add range of elements to given collection.
